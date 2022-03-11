@@ -8,7 +8,7 @@ function mostraPost () {
                         INNER JOIN Users on Post.id_creatore = Users.id;");
 
     foreach($postCreati as $item) {
-        echo "<div class=\"post\">";
+        echo "<div class=\"col-3 post p-3 m-2\">";
         echo "<h3> {$item["titolo"]}</h3>";
         echo "<strong>Fatto da {$item["nome"]}</strong>";
         echo "<p>{$item["Contenuto"]}</p>";
