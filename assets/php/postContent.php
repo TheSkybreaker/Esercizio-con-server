@@ -9,7 +9,7 @@ function mostraPost () {
 
     foreach($postCreati as $item) {
         echo "<div class=\"col mt-3\">
-        <div class=\"card\">
+        <div class=\"card h-100\">
         <div class=\"card-body\">
         <h3> {$item["titolo"]}</h3>
         <strong>Fatto da {$item["nome"]}</strong>
