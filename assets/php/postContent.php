@@ -15,7 +15,5 @@ function mostraPost () {
         echo "<a class=\"btn btn-danger\" href=\"assets/php/deletePost.php?id={$item["post_id"]}\">Elimina</a>";
         echo "</div>";
     }
-
-
 }
 ?>
