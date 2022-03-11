@@ -5,7 +5,7 @@ function mostraPost () {
 
     $postCreati = $pdo->query("
                         SELECT * FROM Post 
-                        NNER JOIN Users on Post.id_creatore = Users.id;");
+                        INNER JOIN Users on Post.id_creatore = Users.id;");
 
     foreach($postCreati as $item) {
         echo "<div class=\"post\">";
