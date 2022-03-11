@@ -60,7 +60,7 @@ require("assets/php/postContent.php");
     </div>
 
     <?php echo $result; ?>
-    <div class="row">
+    <div class="row row-cols-1 row-cols-md-2 mt-5">
         <?php mostraPost(); ?>
     </div>
 
