@@ -1,7 +1,8 @@
 <?php
 
 $message = "";
-$sql = "INSERT INTO Users (nome, cognome, mail, role_id)
+$sql = "INSERT INTO 
+        Users (nome, cognome, mail, role_id)
         VALUES (?,?,?,?);";
 
 if (isset($_POST['invio'])) {
