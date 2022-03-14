@@ -39,12 +39,12 @@ require("assets/php/postContent.php");
         <form action="" method="POST">
             <label for="utente">Seleziona utente</label>
             <select name="utente">
-                <?php
-                $userList = $pdo->query('SELECT id, nome FROM users;');
-                foreach ($userList as $item) {
-                    echo "<option value=\"{$item["id"]}\">{$item["nome"]}</option>";
-                };
-                ?>
+                    <?php
+                    $userList = $pdo->query('SELECT id, nome FROM users;');
+                    foreach ($userList as $item) {
+                        echo "<option value=\"{$item["id"]}\">{$item["nome"]}</option>";
+                    };
+                    ?>
             </select>
             <div>
                 <label for="titolo">Titolo</label>
